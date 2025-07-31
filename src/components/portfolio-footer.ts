@@ -3,11 +3,8 @@ import { customElement } from 'lit/decorators.js'
 
 /**
  * Portfolio Footer Component
- * 
  * Footer section with social media links, copyright, and additional navigation.
  * Features icon-based social media links and responsive design.
- * 
- * Props: None (contains static footer content)
  * Styling: Uses Bulma footer classes with custom social media icon styling
  */
 @customElement('portfolio-footer')

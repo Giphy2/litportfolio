@@ -3,7 +3,6 @@ import { customElement } from 'lit/decorators.js';
 
 /**
  * Updated Services Section
- * Inspired by https://giphy2.github.io/kere-albert-portfolio/#services
  */
 @customElement('services-section')
 export class ServicesSection extends LitElement {
@@ -115,7 +114,7 @@ export class ServicesSection extends LitElement {
     }
   `;
 
-  renderCard(iconPath, title, description) {
+  renderCard(iconPath: any, title: string, description: string) {
     return html`
       <div class="card">
         <div class="icon">

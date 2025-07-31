@@ -4,12 +4,9 @@ import { customElement, state } from 'lit/decorators.js'
 /**
  * Portfolio Header Component
  *
- * A modern, gradient-themed navigation header inspired by the current live portfolio.
  * Features a sticky top navigation with responsive mobile burger menu.
- * Smooth scrolling links to internal sections of the page.
- *
- * Props: None
- * Styling: Custom gradient background with centered links and hover effects
+ * scrolling links to internal sections of the page.
+  * Styling: Custom gradient background with centered links and hover effects
  */
 @customElement('portfolio-header')
 export class PortfolioHeader extends LitElement {
