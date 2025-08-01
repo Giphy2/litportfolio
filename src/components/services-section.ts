@@ -115,7 +115,7 @@ export class ServicesSection extends LitElement {
     }
   `;
 
-  renderCard(iconPath, title, description) {
+  renderCard(iconPath: any, title: string, description: string) {
     return html`
       <div class="card">
         <div class="icon">
