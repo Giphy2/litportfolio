@@ -1,14 +1,12 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '',
   build: {
-    lib: {
-      entry: './src/main.ts',
-      formats: ['es']
-    },
+    outDir: 'dist',
     rollupOptions: {
-      external: /^lit/,
-    },
+      input: 'index.html'
+    }
   },
   server: {
     port: 3000,
