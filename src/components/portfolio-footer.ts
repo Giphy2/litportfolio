@@ -195,7 +195,7 @@ export class PortfolioFooter extends LitElement {
             </nav>
 
             <p class="copyright">
-              © ${new Date().getFullYear()} John Developer. All rights reserved.
+              © ${new Date().getFullYear()} Albert.
             </p>
 
             <p class="tech-stack">
